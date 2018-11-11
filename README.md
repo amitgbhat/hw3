@@ -68,6 +68,7 @@ CREATE TABLE iowa (
   state_bottle_cost double precision,
   state_bottle_retail double precision,
   store integer,
+  store_location char(256),
   store_location_address char(128),
   store_location_city char(128),
   store_location_zip char(128),
