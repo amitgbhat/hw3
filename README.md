@@ -34,14 +34,15 @@ In Part 2 you will complete the following written task and submit your assignmen
 **Q2.1**: (2 points) You have a relation `R(A,B,C)` and functional dependencies `B → C, C → A`
 
 - What are **all** the non-trivial functional dependencies in the closure that have only one attribute on the right side? The definition of trivial is a functional dependency where the right hand side is included in the left hand side. These are the functional dependencies that are true via reflexivity.
-- What are all the minimal keys of `R`? (We do not care about super keys.)
+- What are all the keys of `R`? (We do not care about super keys.)
+
 
 **Q2.2**: (3 points) You have a relation `S(A, B, C, D)` and functional dependencies
   `AB->D, BD->C, CD->A, and AD->B`
 
   * What are all the non-trivial functional dependencies in the closure
     that have  only one attribute on the right side?
-  * What are all the minimal keys of `S`? (We do not care about super keys)
+  * What are all the keys of `S`? (We do not care about super keys)
 
 Now we consider a real application.
 The `iowa` dataset has the following un-normalized schema:
